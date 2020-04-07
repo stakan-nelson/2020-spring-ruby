@@ -1,3 +1,8 @@
-source "https://rubygems.org"
+# frozen_string_literal: true
 
-gem "chunky_png"
+require 'rubygems'
+require 'bundler/setup'
+
+source 'https://rubygems.org'
+
+gem 'chunky_png'
